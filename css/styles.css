@@ -46,6 +46,7 @@ h4{
 .fw-300{
     font-weight: 300;
 }
+
 .centrar-texto {
     text-align: center;
     margin: 5rem auto 6rem auto;
@@ -190,3 +191,112 @@ h4{
     font-size: 1.8rem;
 }
 
+.iconos-estilos {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.iconos-estilos li {
+    display: flex;
+    margin-left: 5rem;;
+}
+
+.iconos-estilos p {
+    margin-right: 5rem;
+}
+
+/**Seccion Inferior**/
+.seccion-inferior {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seccion-inferior .blog {
+    flex-basis: 60%;
+}
+
+.seccion-inferior .testimoniales {
+    flex-basis: calc(40% - 2rem);
+}
+
+.entrada-blog {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.entrada-blog .imagen {
+    flex-basis:  40%;
+}
+.entrada-blog .texto-entrada {
+    flex-basis: calc(60% - 3rem);
+}
+
+.texto-entrada a {
+    color: black;
+}
+
+.texto-entrada h4 {
+    margin: 0;
+    line-height: 1.4;
+}
+
+.texto-entrada h4::after {
+    content: '';
+    display: block;
+    width: 35rem;
+    height: 0.5rem;
+    background-color: #71B100;
+
+    margin-top: 1rem;
+}
+
+.texto-entrada span {
+    color: lightsalmon;
+}
+
+.testimonial {
+    background-color: #71B100;
+    font-size: 2.4rem;
+    padding: 2rem;
+    color: white;
+    border-radius: 2rem;
+}
+
+.testimonial p {
+    text-align: right;
+}
+
+.testimonial blockquote::before {
+    content: '';
+    background-image: url(../img/comilla.svg);
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: -2rem;
+    
+}
+
+.testimonial blockquote {
+    position: relative;
+    padding-left: 5rem;
+    font-weight: 300;
+}
+
+/**Footer**/
+.site-footer {
+    background-color: black;
+    margin: 0;
+}
+
+.contenedor-footer{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    margin: 0;
+    color: white;
+}
