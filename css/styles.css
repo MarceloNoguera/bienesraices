@@ -159,7 +159,8 @@ h4{
     border-width: 1px;
     background-color: #f5f5f5;
     text-align: justify;
-    margin-bottom: 3rem;
+    margin-bottom: 3rem
+
 }
 
 .contenido-anuncio {
@@ -336,4 +337,8 @@ h4{
 }
 .parrafo-anuncio {
     text-align: justify;
+}
+
+.estilo-imagen {
+ 
 }
