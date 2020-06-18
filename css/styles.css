@@ -339,6 +339,12 @@ h4{
     text-align: justify;
 }
 
-.estilo-imagen {
- 
+/*Contacto*/
+
+label{
+    display: block;
+}
+
+input{
+    display: block;
 }
