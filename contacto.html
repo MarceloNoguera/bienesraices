@@ -36,8 +36,8 @@
         <h2 class="fw-300 centrar-texto">Llena el formulario de contacto</h2>
 
         <form action="">
-            <fieldset>
-                <legend>Informacion Personal</legend>
+            <fieldset class="legend">
+                <legend>Informacion personal</legend>
                 <label for="nombre">Nombre:</label>
                 <input type="text" id="nombre" placeholder="Tu nombre" required>
 
@@ -52,7 +52,7 @@
             </fieldset>
 
             <fieldset>
-                <legend>Informacion Sobre Propiedad</legend>
+                <legend class="legend">Informacion sobre propiedad</legend>
                 <label for="opciones">Vende o Compra</label>
                 <select id="opciones">
                     <option value="" disabled selected>--Seleccione--</option>
@@ -65,22 +65,26 @@
             </fieldset>
 
             <fieldset>
-                <legend>Contacto</legend>
-                <p>Como desea ser contactado:</p>
-                <label for="telefono">Telefono</label>
-                <input type="radio" name="contacto" value="telefono" id="telefono">
-                <label for="correo">E-mail</label>
-                <input type="radio" name="contacto" value="correo" id="correo">
+                <div class="contacto">
+                    <legend class="legend">Contacto</legend>
+                    <p>Como desea ser contactado:</p>
+                    <div class="forma-contacto">
+                        <label for="telefono">Telefono</label>
+                        <input type="radio" name="contacto" value="telefono" id="telefono">
+                        <label for="correo">E-mail</label>
+                        <input type="radio" name="contacto" value="correo" id="correo">
+                    </div>
 
-                <p>Si eligio telefono, eliga fecha y hora</p>
-                <label for="fecha">Fecha:</label>
-                <input type="date" id="fecha">
-                <label for="hora">Hora:/label>
-                <input type="time" id="hora">
+                    <p>Si eligio telefono, eliga fecha y hora</p>
+                    <label for="fecha">Fecha:</label>
+                    <input type="date" id="fecha">
+                    <label for="hora">Hora:/label>
+                    <input type="time" id="hora">
+                </div>
 
             </fieldset>
 
-            <input type="submit">
+            <input class="boton boton-verde" type="submit">
         </form>
 
     </main>
